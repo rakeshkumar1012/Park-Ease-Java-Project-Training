@@ -1,4 +1,4 @@
-# 🚗 ParkEase System
+# 🚗 ParkEase 
 
 A simple yet efficient **Java-based Parking Lot Management System** that automates parking slot allocation, fare calculation, and checkout history tracking using **Object-Oriented Programming (OOP)** concepts.
 
