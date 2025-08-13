@@ -49,23 +49,50 @@ A simple yet efficient **Java-based Parking Lot Management System** that automat
 
 ## 📝 Sample Output
 === Parking Lot Menu ===
-1. Park Vehicle
-2. Remove Vehicle
-3. Display Slots
-4. Exit
+
+Park Vehicle
+
+Remove Vehicle
+
+Display Slots
+
+Exit
+
 Choose an option: 1
 Enter vehicle number: KA01AB1234
 Enter number of wheels (2 or 4): 2
-[SUCCESS] Parked at slot 1
+✅ [SUCCESS] Parked at slot 1
 
 Choose an option: 2
 Enter slot number to remove: 1
 Enter number of hours parked: 3
-Charge: Rs. 15
+💰 Charge: Rs. 15
 Do you want to view receipt? (yes/no): yes
---- Receipt ---
-Vehicle Number: KA01AB1234
-Vehicle Type: 2-Wheeler
-Hours Parked: 3
-Charge: Rs. 15
-----------------
+
+--- Parking Receipt ---
+
+Vehicle Number	Vehicle Type	Hours Parked	Charge
+KA01AB1234	2-Wheeler	3	Rs. 15
+## 📈 Applicable SOLID Principle
+- **Single Responsibility Principle (SRP):**  
+  Each class is responsible for a single functionality (e.g., `Vehicle` handles vehicle details, `ParkingLot` manages slots, file handling is separate).
+
+---
+
+## 📊 UML Diagram
+Here’s the high-level UML diagram for the **ParkEase System**:
+
+<img width="418" height="747" alt="image" src="https://github.com/user-attachments/assets/ea3d4ec5-4f45-41b3-ad73-ca55fbdfaef3" />
+
+
+
+
+---
+
+## 🔮 Future Enhancements
+- Add **Date & Time Tracking** for automatic duration calculation.
+- Integrate **GUI** using JavaFX or Swing.
+- Implement **multi-floor parking**.
+- Add **online payment support**.
+
+---
