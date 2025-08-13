@@ -82,7 +82,8 @@ KA01AB1234	2-Wheeler	3	Rs. 15
 ## 📊 UML Diagram
 Here’s the high-level UML diagram for the **ParkEase System**:
 
-<img width="418" height="747" alt="image" src="https://github.com/user-attachments/assets/ea3d4ec5-4f45-41b3-ad73-ca55fbdfaef3" />
+<img width="430" height="766" alt="image" src="https://github.com/user-attachments/assets/1d129ae8-6fc8-4ebb-908a-ba607888afd7" />
+
 
 
 
